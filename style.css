@@ -1,53 +1,58 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-body{
-    background-color: aqua;
+body {
+  background-color: white;
 }
-.container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
 }
-.header{
-    text-align: center;
-    margin-top: 30px;
+.header {
+  text-align: center;
+  margin-top: 30px;
 }
-form{
-    text-align: left;
-    padding: 20px;
-    border: 1px transparent black;
-    border-radius: 20px;
-    width: fit-content;
-    margin: 20px 20px;
-    padding: 20px; 
-    background-color: burlywood;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+form {
+  text-align: left;
+  padding: 20px;
+  border: 1px transparent black;
+  border-radius: 20px;
+  width: 970x;
+  margin: 20px 20px;
+  padding: 20px;
+  background-color: burlywood;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-input:focus{
-    background-color: yellow;
+input:focus {
+  background-color: yellow;
 }
-h3{
-    color: brown;
+h3 {
+  color: brown;
 }
-h4{
-    font-size: large;
-    margin-bottom: 10px;
-    font-weight: 600px;
-    color: brown;
+h4 {
+  font-size: large;
+  margin-bottom: 10px;
+  font-weight: 600px;
+  color: brown;
 }
-.Btn{
+.Btn {
   background-color: #c2fbd7;
   border-radius: 100px;
-  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  box-shadow: rgba(44, 187, 99, 0.2) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.15) 0 1px 2px, rgba(44, 187, 99, 0.15) 0 2px 4px,
+    rgba(44, 187, 99, 0.15) 0 4px 8px, rgba(44, 187, 99, 0.15) 0 8px 16px,
+    rgba(44, 187, 99, 0.15) 0 16px 32px;
   color: green;
   cursor: pointer;
   display: inline-block;
-  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
   padding: 7px 20px;
   text-align: center;
   text-decoration: none;
@@ -60,30 +65,48 @@ h4{
 }
 
 .Btn:hover {
-  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  box-shadow: rgba(44, 187, 99, 0.35) 0 -25px 18px -14px inset,
+    rgba(44, 187, 99, 0.25) 0 1px 2px, rgba(44, 187, 99, 0.25) 0 2px 4px,
+    rgba(44, 187, 99, 0.25) 0 4px 8px, rgba(44, 187, 99, 0.25) 0 8px 16px,
+    rgba(44, 187, 99, 0.25) 0 16px 32px;
   transform: scale(1.05) rotate(-1deg);
 }
+.footer {
+  text-align: center;
+  background-color: black;
+  height: auto;
+  width: 930px;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+span {
+  color: red;
+}
 
-@media only screen and (max-width: 600px){
-    .container{
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-    form{
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-        margin-left: 30px;
-    }
-    input{
-        width: 150px;
-    }
-    select{
-        width: 55px;
-    }
-    textarea{
-        width: 300px;
-    }
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 30px;
+  }
+  input {
+    width: 150px;
+  }
+  select {
+    width: 55px;
+  }
+  textarea {
+    width: 300px;
+  }
 }
