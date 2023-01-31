@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <div className="container">
-      <h3>
-        Thank You for visiting us. <br />
-        Our Website is under construction presently.
-        <br />
-        We request to kindly update your details and we shall connect with you
-        offline.
-      </h3>
-      <form action="https://formsubmit.co/ghoshgaurav1568@gmail.com" method="POST">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>
+          Thank You for visiting us. <br />
+          Our Website is under construction presently.
+          <br />
+          We request to kindly update your details and we shall connect with you
+          offline.
+        </h3>
+      </div>
+
+      <form
+        action="https://formsubmit.co/ghoshgaurav1568@gmail.com"
+        method="POST"
+      >
         <label>Title </label>
         <select name="title" id="title">
           <option value="Mr">Mr</option>
@@ -27,15 +34,19 @@
         <label> Last Name </label>
         <input type="text" name="last_name" />
         <br />
+        <br />
         <label> Name of Organization </label>
         <input type="text" name="organization_name" />
+        <br />
         <br />
         <label> Designation </label>
         <input type="text" name="designation_name" />
         <br />
+        <br />
         <label>
           <strong>Address</strong>
         </label>
+        <br />
         <br />
         <label> Plot No. / Flat No </label>
         <input type="text" name="plot_no" />
@@ -44,12 +55,14 @@
         <label> Street/Road </label>
         <input type="text" name="street_road_no" />
         <br />
+        <br />
         <label> Area/Locality </label>
         <input type="text" name="area _name" />
         <label> Landmark Location </label>
         <input type="text" name="landmark_name" />
         <label> Post Office </label>
         <input type="text" name="post_office" />
+        <br />
         <br />
         <label> Pin Code </label>
         <input type="number" name="pin_code" />
@@ -60,15 +73,19 @@
         <label> Country </label>
         <input type="text" name="country_name" />
         <br />
+        <br />
         <label>
           <strong> Business Activity </strong>
         </label>
         <br />
+        <br />
         <input type="checkbox" id="Importer" name="Importer" value="Importer" />
         <label htmlFor="Importer"> Importer</label>
         <br />
+        <br />
         <input type="checkbox" id="Exporter" name="Exporter" value="Exporter" />
         <label htmlFor="Exporter"> Exporter</label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -78,6 +95,7 @@
         />
         <label htmlFor="Wholesale_Trader"> Wholesale Trader</label>
         <br />
+        <br />
         <input
           type="checkbox"
           id="Retail_Trader"
@@ -86,9 +104,11 @@
         />
         <label htmlFor="Retail_Trader"> Retail Trader</label>
         <br />
+        <br />
         <label htmlFor="Product_Information">
           <strong>Product Information</strong>
         </label>
+        <br />
         <br />
         <textarea
           id="Product_Information"
@@ -97,22 +117,28 @@
           cols="80"
         ></textarea>
         <br />
+        <br />
         <label> Contact Number </label>
         <input type="number" name="contact_number" />
+        <br />
         <br />
         <label> Mobile Number </label>
         <input type="number" name="mobile_number" />
         <br />
+        <br />
         <label> WhatsApp Number </label>
         <input type="number" name="whatsApp_number" />
         <br />
+        <br />
         <label> Email ID </label>
         <input type="email" name="email_id" />
+        <br />
         <br />
         <label>
           <h4>Services you are interested for</h4>
           <strong> Procurement Consultancy </strong>
         </label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -121,6 +147,7 @@
           value="Plastic_Raw_Material"
         />
         <label htmlFor="Plastic_Raw_Material"> Plastic Raw Material</label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -132,9 +159,11 @@
           Plastic Packaging Material
         </label>
         <br />
+        <br />
         <label>
           <strong> Business Development Consultancy </strong>
         </label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -144,6 +173,7 @@
         />
         <label htmlFor="OEM_Job-Work_Contract"> OEM Job-Work Contract</label>
         <br />
+        <br />
         <input
           type="checkbox"
           id="Network_Marketing_B2B"
@@ -151,6 +181,7 @@
           value="Network_Marketing_B2B"
         />
         <label htmlFor="Network_Marketing_B2B"> Network Marketing B2B</label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -160,9 +191,11 @@
         />
         <label htmlFor="Digital_Marketing"> Digital Marketing</label>
         <br />
+        <br />
         <label>
           <strong> Business StartUp Consultancy </strong>
         </label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -174,6 +207,7 @@
           Project Finance Consultancy
         </label>
         <br />
+        <br />
         <input
           type="checkbox"
           id="MIS_Compliance_Consultancy"
@@ -184,9 +218,11 @@
           MIS Compliance Consultancy
         </label>
         <br />
+        <br />
         <label>
           <strong> Business Support Consultancy </strong>
         </label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -198,6 +234,7 @@
           Environment Sustainability
         </label>
         <br />
+        <br />
         <input
           type="checkbox"
           id="Waste_Management_EPR"
@@ -205,6 +242,7 @@
           value="Waste_Management_EPR"
         />
         <label htmlFor="Waste_Management_EPR"> Waste Management EPR</label>
+        <br />
         <br />
         <input
           type="checkbox"
@@ -214,8 +252,9 @@
         />
         <label htmlFor="CSR_Consultancy"> CSR Consultancy</label>
         <br />
-        <button type="submit">Send</button>
+        <br />
+        <button class="Btn" id="Btn" type="submit">Send</button>
       </form>
     </div>
-</body>
+  </body>
 </html>
